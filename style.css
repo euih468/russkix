@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0de5e1;
+    color: #f600ff;
+    padding: 16px;
+}
+
+h2 {
+    text-align: justify;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+p {
+    padding: 12px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00ff15;
+}
+
+footer {
+    background-color: #11ff00;
+    color: #ff0000;
+    text-align: center;
+    padding: 12px;
+}
+
+.pictures {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.pictures img {
+    width: 70%;
+    margin: 14px; 
+}
+
+table,
+.main table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+td, th{
+    border: 2px colid#1b02fd;
+}
